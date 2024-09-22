@@ -1,0 +1,11 @@
+*.txt filter=lfs diff=lfs merge=lfs -text
+*.apk filter=lfs diff=lfs merge=lfs -text
+*.db filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.unity3d filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+Library/Artifacts/5b/5b1bf24c47b54898154b92834ecdf517 filter=lfs diff=lfs merge=lfs -text
+Library/Artifacts/3c/3c504baccb092c3f340714bc929f683e filter=lfs diff=lfs merge=lfs -text
+Library/Artifacts/49/495133f6d1e8438f5c78b4013a3b4e3a filter=lfs diff=lfs merge=lfs -text
+Library/Artifacts/4a/4a3f4e774c1fd28900d7e0a8ac566891 filter=lfs diff=lfs merge=lfs -text
+Library/Artifacts/* filter=lfs diff=lfs merge=lfs -text
