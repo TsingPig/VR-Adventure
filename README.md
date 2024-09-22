@@ -8,4 +8,4 @@ Willkommen zu **VR Adventure**! Dieses Projekt wurde während des Studiums an de
 
 ## Video-Demo
 
-[![VR Adventure Demo](/Users/VR_Adventure/Assets/Thumbnail/video_picture.png)](https://video.fh-dortmund.de/video/bachelor-studiengang-digitale-technologien-vr-adventure/fde0b7945df63da8445656a5556aaef2)
+[![VR Adventure Demo](Assets/Thumbnail/video_picture.png)](https://video.fh-dortmund.de/video/bachelor-studiengang-digitale-technologien-vr-adventure/fde0b7945df63da8445656a5556aaef2)
