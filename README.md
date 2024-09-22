@@ -1,6 +1,6 @@
 # VR Adventure
 
-Willkommen zu **VR Adventure**! Dieses Projekt wurde während des Studiums an der FH Dortmund im Rahmen des Wahlpflichtmoduls **Extended Reality (XR)** im Wintersemester 2022/2023 entwickelt. Ziel des Projekts war es, die Grundlagen der Unity-Engine und des XR Interaction Toolkits kennenzulernen und anzuwenden.
+Willkommen im Repo von **VR Adventure**! Dieses Projekt wurde während des Studiums an der FH Dortmund im Rahmen des Wahlpflichtmoduls **Extended Reality (XR)** im Wintersemester 2022/2023 entwickelt. Ziel des Projekts war es, die Grundlagen der Unity-Engine und des XR Interaction Toolkits kennenzulernen und anzuwenden.
 
 ## Projektübersicht
 
