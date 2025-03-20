@@ -1,0 +1,33 @@
+{
+  "summary": {
+    "generatedon": "2025-03-20T03:21:42Z",
+    "parser": "MultiReportParser (5x OpenCoverParser)",
+    "assemblies": 1,
+    "classes": 10,
+    "files": 10,
+    "coveredlines": 78,
+    "uncoveredlines": 7,
+    "coverablelines": 85,
+    "totallines": 273,
+    "linecoverage": 91.7,
+    "coveredbranches": 0,
+    "totalbranches": 0,
+    "coveredmethods": 19,
+    "totalmethods": 20,
+    "methodcoverage": 95
+ },
+  "coverage": {
+    "assemblies": [
+      { "name": "Test", "classes": 10, "coverage": 91.7, "coveredlines": 78, "coverablelines": 85, "totallines": 273, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 95, "coveredmethods": 19, "totalmethods": 20, "classesinassembly": [
+        { "name": "audio_controll", "coverage": 50, "coveredlines": 3, "coverablelines": 6, "totallines": 23, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 50, "coveredmethods": 1, "totalmethods": 2 },
+        { "name": "audio_manager", "coverage": 100, "coveredlines": 3, "coverablelines": 3, "totallines": 23, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "Ballcanone", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 27, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Basketball_treffer", "coverage": 100, "coveredlines": 3, "coverablelines": 3, "totallines": 18, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 1, "totalmethods": 1 },
+        { "name": "Bowling", "coverage": 100, "coveredlines": 9, "coverablelines": 9, "totallines": 24, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Butest", "coverage": 100, "coveredlines": 5, "coverablelines": 5, "totallines": 19, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "ButtonVR", "coverage": 100, "coveredlines": 26, "coverablelines": 26, "totallines": 64, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 4, "totalmethods": 4 },
+        { "name": "falling_Player", "coverage": 100, "coveredlines": 7, "coverablelines": 7, "totallines": 19, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "Hand_Handler", "coverage": 69.2, "coveredlines": 9, "coverablelines": 13, "totallines": 32, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 },
+        { "name": "MoveCamCollider", "coverage": 100, "coveredlines": 8, "coverablelines": 8, "totallines": 24, "branchcoverage": null, "coveredbranches": 0, "totalbranches": 0, "methodcoverage": 100, "coveredmethods": 2, "totalmethods": 2 } ] } ]
+  }
+}

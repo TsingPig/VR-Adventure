@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>2025/3/20 - 11:25:05</Generatedon>
+    <Parser>MultiReportParser (3x OpenCoverParser)</Parser>
+    <Assemblies>1</Assemblies>
+    <Classes>10</Classes>
+    <Files>10</Files>
+    <Coveredlines>46</Coveredlines>
+    <Uncoveredlines>39</Uncoveredlines>
+    <Coverablelines>85</Coverablelines>
+    <Totallines>273</Totallines>
+    <Linecoverage>54.1</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+    <Coveredmethods>13</Coveredmethods>
+    <Totalmethods>20</Totalmethods>
+    <Methodcoverage>65</Methodcoverage>
+  </Summary>
+  <Coverage>
+    <Assembly name="Test" classes="10" coverage="54.1" coveredlines="46" coverablelines="85" totallines="273" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="13" totalmethods="20" methodcoverage="65">
+      <Class name="audio_controll" coverage="50" coveredlines="3" coverablelines="6" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="2" methodcoverage="50" />
+      <Class name="audio_manager" coverage="100" coveredlines="3" coverablelines="3" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="1" methodcoverage="100" />
+      <Class name="Ballcanone" coverage="40" coveredlines="2" coverablelines="5" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="2" methodcoverage="50" />
+      <Class name="Basketball_treffer" coverage="0" coveredlines="0" coverablelines="3" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="0" totalmethods="1" methodcoverage="0" />
+      <Class name="Bowling" coverage="100" coveredlines="9" coverablelines="9" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="Butest" coverage="100" coveredlines="5" coverablelines="5" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="ButtonVR" coverage="11.5" coveredlines="3" coverablelines="26" totallines="64" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="4" methodcoverage="25" />
+      <Class name="falling_Player" coverage="57.1" coveredlines="4" coverablelines="7" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="1" totalmethods="2" methodcoverage="50" />
+      <Class name="Hand_Handler" coverage="69.2" coveredlines="9" coverablelines="13" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+      <Class name="MoveCamCollider" coverage="100" coveredlines="8" coverablelines="8" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" coveredmethods="2" totalmethods="2" methodcoverage="100" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>
