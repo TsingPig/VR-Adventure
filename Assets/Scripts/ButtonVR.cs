@@ -1,10 +1,27 @@
+using BNG;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using UnityEngine;
 using UnityEngine.Events;
-
-public class ButtonVR : MonoBehaviour
+using VRExplorer;
+public class ButtonVR : MonoBehaviour, ITriggerableEntity
 {
+    [ExcludeFromCodeCoverage] public float TriggeringTime => 1.5f;
+    [ExcludeFromCodeCoverage] public string Name => Str.Triggerable;
+
+    [ExcludeFromCodeCoverage]
+    public void Triggerring()
+    {
+        onPress?.Invoke();
+    }
+
+    [ExcludeFromCodeCoverage]
+    public void Triggerred()
+    {
+        onRelease?.Invoke();
+    }
+
     public GameObject button;
     public UnityEvent onPress;
     public UnityEvent onRelease;
@@ -18,7 +35,7 @@ public class ButtonVR : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (!isPressed)
+        if(!isPressed)
         {
             button.transform.localPosition = new Vector3(-0.52f, 0.279f, -0.133f);
             presser = other.gameObject;
@@ -29,7 +46,7 @@ public class ButtonVR : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject == presser)
+        if(other.gameObject == presser)
         {
             button.transform.localPosition = new Vector3(-0.544f, 0.279f, -0.133f);
             onRelease.Invoke();
